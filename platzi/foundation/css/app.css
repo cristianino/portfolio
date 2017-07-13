@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Ravi+Prakash');
+body{
+  background-color: black;
+}
+h1, h2, h3, h4, h5, h6, p, a, button, input{
+  font-family: 'Bree Serif', serif;
+}
+/* identificadores*/
+#social-container{
+  background-color: #1c3643;
+}
+#logo-container .callout{
+  background-color: #ee3f54;
+  color: white;
+  margin-bottom: 0;
+}
+#menu-container{
+  background-color: #48a19d;
+  width: 100%;
+}
+#menu-container li a{
+  color:white;
+  text-transform: uppercase;
+}
+#submenu-container{
+  border: 0;
+}
+#menu-container li a:hover, #submenu-container li a:hover{
+  color:#f6e15f;
+}
+#submenu-container li a{
+  background-color: #48a19d;
+  color:white;
+}
+#tickets-action .callout{
+  background-color: #5e7eb7;
+  color:white;
+  margin-bottom: 0;
+}
+#tickets-action .callout button{
+  border:1px solid white;
+  color:white;
+}
+#lineup-container{
+
+  padding: 1em 0;
+}
+#lineup-container,
+#lineup-container .tabs-panel,
+#lineup-container .tabs,
+#lineup-container .tabs .tabs-title,
+#lineup-container .tabs .tabs-title.is-active a{
+  background-color: #9676af;
+  color: white;
+  border: 0;
+  text-transform: uppercase;
+}
+#lineup-container .tabs .tabs-title a{
+  font-size: 18px;
+  color: #a7fffb;
+}
+#lineup-container .tabs .tabs-title a:hover{
+  color:white;
+  background-color: #9676af;
+}
+#lineup-container .orbit-container{
+  margin-bottom: 1em;
+}
+#lineup-container .column:nth-child(odd) figcaption{
+  text-align: right;
+}
+#tickets-container{
+  padding: 1em 0;
+  background-color: #f6e15f;
+  color:#161742;
+}
+#tickets-container .pricing-table .button{
+  width: 100%;
+  font-size: .6em;
+}
+#info-container{
+  background-color: #161742;
+  color:white;
+  padding:1em 0;
+}
+#info-container .info-map iframe{
+  width: 100%;
+}
+#suscribete-container{
+  background-color: #ee3f54;
+  color: white;
+  padding: 1em 0;
+}
+#suscribete-container h4 small{
+  color:#ffcddc;
+}
+#suscribete-container .input-group-label i{
+  width: 100%;
+}
+#offCanvas{
+  background-color: black;
+  color: white;
+  font-family: 'Bree Serif', serif;
+}
+#offCanvas li a{
+  color: white;
+  background-color: black;
+}
+#offCanvas .is-drilldown-submenu-parent>a::after{
+  border-color: transparent transparent transparent white;
+}
+#offCanvas .js-drilldown-back>a::before{
+  border-color: transparent white transparent transparent;
+}
+/* Clases*/
+.tabs-title{
+  display: inline-block;
+  float: none;
+}
+.tabs-content{
+  border:0;
+}
+.is-invalid-input:not(:focus){
+  background-color: rgb(255,228,228);
+  border-color: rgb(255,228,228);
+}
+.data-sticky{
+  z-index: 100;
+}
+@media screen and (min-width: 480px) {
+  #tickets-container .pricing-table .button{
+    font-size: .85em;
+  }
+}

@@ -1,0 +1,29 @@
+*{margen:0;
+}
+header{background:#F7FE2E;}
+
+header imgport{
+	
+}
+.navbar-collapse collapse{
+	display:flex;
+	flex-flow:row wrap;
+	color:#FFFF00;
+	
+}
+
+page portfolio-page-wrapper container row portfolio-sortlist span12 pulse p{color:#FFFF00;
+display:flex;
+margen:0;
+	flex-flow:row wrap;
+}
+header portada{display:flex;
+ margen:0;
+
+display:main-end;
+	
+}
+container row p{color:#FFFF00;}
+ul li {
+		margin:0px 25px;
+}

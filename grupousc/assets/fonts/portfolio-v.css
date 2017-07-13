@@ -1,0 +1,8 @@
+@font-face {
+	font-family:machauer;
+	src:url(assets\fonts\h1/Machauer.ttf);
+	
+}
+h1{
+	font-family:machauer;
+}

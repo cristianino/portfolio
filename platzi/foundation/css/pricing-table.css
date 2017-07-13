@@ -1,0 +1,44 @@
+
+.pricing-table {
+  background-color: #f6e15f;
+  border: solid 1px #161742;
+  width: 100%;
+  text-align: center;
+  list-style-type: none;
+  font-family: 'Ravi Prakash', cursive;
+}
+
+.pricing-table li {
+  border-bottom: dotted 1px #cacaca;
+  padding: 0.875rem 1.125rem;
+  font-size: 20px;
+}
+
+.pricing-table li:last-child {
+  border-bottom: 0;
+}
+
+.pricing-table .title {
+  background-color: #3a3737;
+  color: #eae3e3;
+  border-bottom: 0;
+  font-size: 2rem;
+}
+
+.pricing-table .price {
+  background-color: white;
+  font-size: 2rem;
+  border-bottom: 0;
+}
+
+.pricing-table .description {
+  color: #8a8a8a;
+  font-size: 1.35rem;
+}
+
+.pricing-table :last-child {
+  margin-bottom: 0;
+}
+.pricing-table a.button {
+  font-family: 'Bree Serif', serif;
+}

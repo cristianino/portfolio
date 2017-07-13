@@ -1,0 +1,8 @@
+@font-face {
+	font-family: 'tittle';
+	src:url('icomoon/icomoon.eot');
+		url('icomoon/icomoon.woff') format('woff'),
+		url('icomoon/icomoon.ttf') format('truetype'),
+	font-weight: normal;
+	font-style: normal;
+}

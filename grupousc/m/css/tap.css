@@ -1,0 +1,48 @@
+@charset "utf-8";
+@media only screen and (min-width:461px){
+	
+	header{
+		margin:0;
+		padding:0;
+	}
+	nav{
+		z-index:1000;
+		overflow: scroll;
+	}
+	.btMenu img{
+		height:50px;
+		background-color:#FC0;
+		margin:3px auto 12px 5px;
+	}
+	.btMenu h3{
+		display:inline-block;
+		margin:10px auto 0 30%;
+		text-align:center;
+		text-shadow:#333;
+		font-weight: bold;
+		color:#333;
+	}
+	.menuBar{
+		width:100%;
+		background-color:#FC0;
+		position:fixed;
+		z-index:1000;
+		margin:0;
+		padding:0;
+		float:left;
+		border-bottom:#F90 3px solid;
+		-webkit-border-bottom-left-radius: 5px;
+		-moz-border-radius-bottomleft: 5px;
+		border-bottom-left-radius: 5px;
+	}
+	.menuFixed ul li{
+		display:block;
+		clear:both;
+	}
+	.content{
+		position:absolute;
+		clear:both;
+	}
+}
+
+

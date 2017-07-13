@@ -1,0 +1,12 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Condensed&subset=latin,greek);
+@import url(https://fonts.googleapis.com/css?family=Passion+One:700);
+.video p{
+	font-family: 'Ubuntu Condensed', sans-serif;
+	color: #cfd140;
+	text-align: center;
+	
+} 
+.video h2{
+	font-family: 'Passion One', cursive;
+	
+}
